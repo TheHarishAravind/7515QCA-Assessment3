@@ -204,6 +204,9 @@ Sound Sensor
 
 2. **Light sensing** - The LDR takes the light input due to which the motors vibrate. In the initial prototypes, using a microbit to play 8-bit music was not very effective as it was hard to play various kinds of music. This problem was solved using an Arduino, and the speaker was removed. The sound was processed through sound sensor by Arduino and output as light by the Arduino.
 
+I have used 2 LEDs in this circuit, one for index finger, one for middle finger. From my previous research, it was seen that the LDR reacts differently to different frequency of light. For the index finger I used a Orange Light since LDR reacts the strongest for Orange. This picks up the Bass and sound beyond certain decibels. 
+I used a greenish yellow LED for middle finger and incidentally it picks up the lower treble notes in the music.  
+
 Light sensing circuit with LED
 ![Image](basiccircuit.png)
 
@@ -385,9 +388,8 @@ The double diamond has proven to be very useful in my thought process though I a
 One of my favourite design processes is the Design Squiggle. 
 "The journey of researching, uncovering insights, generating creative concepts, iteration of prototypes and eventually concluding in one single designed solution."
 
-![Image](ds.png)
-
 Design Squiggle
+![Image](ds.png)
 
 What parts of your project do you feel are novel. This is IMPORTANT to help justify a key component of the assessment rubric.
 
