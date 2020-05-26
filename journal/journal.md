@@ -240,6 +240,7 @@ While the woolen socks snug and easy to move, wearing it on the foot gave me sli
 The woollen gloves seemed to be the perfect fit for the device as it was light, easy to move and hand minimal restrictions. It was $5 and was easy to remove too. 
 
 **Building a Prototype**
+
 Making a robust, solid build was a mighty task. 
 I faced a number of problems including,
 1. Nothing sticks to wool(not even duct tape)
@@ -307,8 +308,8 @@ void loop()
 ## Design process discussion ##
 **Timeline**
 
-## Week 1 - 6 ##
-### Discover ###
+### Week 1 - 6 ###
+#### Discover ####
 
 ![Image](pro1.png)
 
@@ -318,8 +319,8 @@ The user can also manipulate the pitch and speed of the music using light and ac
 
 While this was a very ambitious project, my Lecturer helped me understand that I was trying to solve a problem that I dind't have, thus making it hard for me to find an answer. Having understood my flaw I restructured my thoughts.
 
-## Week 7 - 9 ##
-### Define, Develop, Repeat ###
+### Week 7 - 9 ###
+#### Define, Develop, Repeat ####
 
 ![Image](garglovept.png)
 
@@ -328,15 +329,13 @@ Through weeks 7 - 9 I spent time in looking at how to make the deisgn and the te
 
 Also during this time the scale of the project shrunk form multiple wearables to one wearable glove. The Sensit started as a collection of multi-accesory wearable devices that were aimed at providing a fun and interesting experience for people to feel and interact with music through tactile feedback. But due to time constraints and to make the tweak the prototype to work better, only the Glove part of the prototype was worked upon. 
 
-![Image](glove.png)
+### Week 11 - 12 ###
+#### Develop and Deliver ####
 
-## Week 11 - 12 ##
-### Develop and Deliver ###
+![Image](finalwork.png)
 
 The fabrication part of the Project was the most difficult of it all. From finding the right formfactor to make it a wearable to selecting materials that are wearable friendly was tasking. To put everything together and making it stay as the formfactor was even more difficult. 
 Having tried a variety of materials like rayon socks, to gardening gloves to nylon strips for fingers, wollen handgloves were the best. I was able to successfully complete the project.
-
-![Image](finalwork.png)
 
 A flatlay of all the components used throughout the project
 ![Image](flatlaycomp.png)
@@ -344,6 +343,7 @@ A flatlay of all the components used throughout the project
 
 ## **User Testing** ##
 I had the oppurtunity to show and test this with 3 people. All of them had varied response to the wearable.
+
 **1. Angela Goh - Classmate**
 
 Angela visited me around week 11, then she tried the Garden Glove prototype. She was quite amused by it and she suggested that, "it would be interesting to use it to teach music, like rhythms and beats". She suggested that it can be used like a memory haptic metronome to learn music, rhythms and music. I would love to look at the directon as a future course of this project.
@@ -370,6 +370,7 @@ Unrelated Currawong picture
 I felt that this project was an interesting test of my previously acquired skills. I expected to have difficulty in constructing the technology part of the project. But I had the utmost difficulty in fabricating the technical part into the a wearable form. I also understood the importance of choosing materials while working on wearables. I understood that the practicality of a wearable was very important than the level of technology implemented in it. 
 
 What techniques, approaches, skills, or information did you find useful from other sources (such as the related projects you identified earlier)?
+
 My skills with hobby electronics was challenged when I moved from microbit to Arduino board. I felt liberated after doing some simple projects with Arduino due to the simplicity of its use and implementation. I referred to websites like makerspaces, arduino createhub, reddit for clues, inspirations and advice. 
 
 The double diamond has proven to be very useful in my thought process though I am trying to identify other design methods. 
@@ -378,7 +379,13 @@ One of my favourite design processes is the Design Squiggle.
 
 ![Image](ds.png)
 
-
 What parts of your project do you feel are novel. This is IMPORTANT to help justify a key component of the assessment rubric.
 
-What might be an interesting extension of this project? In what other contexts might this project be used? --->
+I feel that the experience part of my project is very novel. I have tried my best to research something that is exactly this product or something that gives a very similar experience. But I am yet to find one in my 8 weeks of research. The thing I am intrigued about my project are its affordances and signifiers. While I have tried to fabricate it in such a way that it is a comfortable wearable, I have put minimal effort on how it is perceived by people. I feel that I can tweak the design more if I had the resource and time. But for now I am excited as how this would be experienced as an art installation. 
+
+What might be an interesting extension of this project? In what other contexts might this project be used?
+
+Everytime someone sees or wears this glove, the first thing they suggest is to make it as a wearable for blind people. But given that it was a barrier that I had to break because I would not be able to solve problems I don't face or without doing practical research about the problem, I am trying to go in a different direction. 
+With my design intent focused on creating a wearable that will allow us to feel digital artefacts, I would like to create an array of these vibration motors that scale up to life size and where people would feel music or sound elsewhere. A tactile bathtub of sorts.
+
+I would also like to combine this with temperature based outputs that might give heat or cold based on the beat of the music.
