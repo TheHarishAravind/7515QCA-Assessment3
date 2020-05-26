@@ -141,7 +141,7 @@ Tangential usage of this wearable are,
 
 ### Interaction flowchart ###
 
-![Image](flowchart1.png)
+![Image](flowchart.png)
 
 ## Process documentation ##
 
@@ -199,10 +199,12 @@ Starting from using an Microbit to just using an NPN transistor, I had to move o
 Switching to an Arduino made it easier to process and output light.
 1. **Sound sensing** - During initial prototypes a condensing microphone is is used to 'listen' to the music played that was converted into light using NPN transistor (2N2222A). Later on a Sound Sensor was user to sense the sound. This sound sensor was compatible with arduino and also had a potentiometer in to to change the sensitivity.
 
+Sound Sensor
 ![Image](ssensor.png)
 
 2. **Light sensing** - The LDR takes the light input due to which the motors vibrate. In the initial prototypes, using a microbit to play 8-bit music was not very effective as it was hard to play various kinds of music. This problem was solved using an Arduino, and the speaker was removed. The sound was processed through sound sensor by Arduino and output as light by the Arduino.
 
+Light sensing circuit with LED
 ![Image](basiccircuit.png)
 
 Using the microbit was fairly straight forward. and I was able to make the Arduino work with a few lines of micropython code. 
@@ -234,7 +236,6 @@ b) If it can be worn on foot.
 While the woolen socks snug and easy to move, wearing it on the foot gave me slight anxeity that I might kick or break the device.
 
 4. Woollen Gloves
-
 ![Image](woglove.png)
 
 The woollen gloves seemed to be the perfect fit for the device as it was light, easy to move and hand minimal restrictions. It was $5 and was easy to remove too. 
@@ -261,10 +262,13 @@ While I had much more problems these were the consistent problems I face while m
 
 While duct tape or doublesided tape was not of much use, a water based glue called Gorilla Glue and some superglue helped hold together two wool based surfaces. The light circuit's contacts were wildly touching eachother. Insulating them, helped solve the problem. Insulating the vibration motors helped strengthen it. Movement while using the glove caused the potentiometer to go wild. changing the potentiometer screw to a tighter one helped with the problem. I 3D printed a case for the sound sensor and Arduino to make it stick better on the woollen gloves. I was able to design the case for sound sensor, the arduino case was downloaded from Thingiverse ( https://www.thingiverse.com/thing:994827). After finally consolidating all the parts on to the glove I was able to arrive at a fairly robust wearable.
 
+3D model of Sensor case
 ![Image](3dmodel.png)
 
+3D printing Sensor case 
 ![Image](sensorcase.png)
 
+3D printing Arduino case
 ![Image](caseprint.png)
 
 
@@ -311,6 +315,7 @@ void loop()
 ### Week 1 - 6 ###
 #### Discover ####
 
+First tech circuit
 ![Image](pro1.png)
 
 In week 1 - 6 I was very set on creating a device with haptic feedback that would help people with vision disabilities to feel music. As a result of that, I started working on a project called What You Hear Is What You Feel(WYHIWYF). 
@@ -322,6 +327,7 @@ While this was a very ambitious project, my Lecturer helped me understand that I
 ### Week 7 - 9 ###
 #### Define, Develop, Repeat ####
 
+Garden Glove prototype
 ![Image](garglovept.png)
 
 After being enlightened, I took to creating a simple experience that I have always wanted to feel. I created Sensit with use of Arduino and vibration motors. I was also met with a problem of the same concept existing prior. On researching about Haptic gloves there were so many that had very similar capabilities but none were similar to my project. 
@@ -332,6 +338,7 @@ Also during this time the scale of the project shrunk form multiple wearables to
 ### Week 11 - 12 ###
 #### Develop and Deliver ####
 
+Final Output
 ![Image](finalwork.png)
 
 The fabrication part of the Project was the most difficult of it all. From finding the right formfactor to make it a wearable to selecting materials that are wearable friendly was tasking. To put everything together and making it stay as the formfactor was even more difficult. 
@@ -348,9 +355,9 @@ I had the oppurtunity to show and test this with 3 people. All of them had varie
 
 Angela visited me around week 11, then she tried the Garden Glove prototype. She was quite amused by it and she suggested that, "it would be interesting to use it to teach music, like rhythms and beats". She suggested that it can be used like a memory haptic metronome to learn music, rhythms and music. I would love to look at the directon as a future course of this project.
 
-**2. Santosh - Housemate**
+**2. Unnamed - Housemate**
 
-Santosh is my housemate. When he tried on the glove he initially expected it to be a glove that controls a robot of some sort. But when I let him experience it, he was intrigued about the vibrations. He felt that the vibrations could be more intense. But was not very convinced that this could be a art installation.
+Santosh is my housemate. When he tried on the glove he initially expected it to be a glove that controls a robot of some sort. But when I let him experience it, he was intrigued about the vibrations. He felt that the vibrations could be more intense. But was not very convinced that this could be a art installation. He asked to blur his face.
 
 ![Image](user1.png)
 
@@ -359,6 +366,7 @@ Santosh is my housemate. When he tried on the glove he initially expected it to 
 Fernando is my another housemate. Fernando had the most interesting experience with Sensit. While he did not guess what the gloves did, he was plesantly surprised at what it did. I did not turn on music for him in hopes of finding a how he'd react. 
 He quickly figured out that the glove reacted to his voice and was excited by that. He also found that tht glove gave tactile feedback for Currawong songs and the 'thud' of walking on the floor. This was a very defining moment for me as I realised that affordances of any design has to be considered carefully before fabricating it. 
 
+Fernando posing like Thanos
 ![Image](happyuser2.png)
 
 Unrelated Currawong picture
@@ -378,6 +386,8 @@ One of my favourite design processes is the Design Squiggle.
 "The journey of researching, uncovering insights, generating creative concepts, iteration of prototypes and eventually concluding in one single designed solution."
 
 ![Image](ds.png)
+
+Design Squiggle
 
 What parts of your project do you feel are novel. This is IMPORTANT to help justify a key component of the assessment rubric.
 
