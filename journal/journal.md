@@ -200,6 +200,7 @@ Switching to an Arduino made it easier to process and output light.
 1. **Sound sensing** - During initial prototypes a condensing microphone is is used to 'listen' to the music played that was converted into light using NPN transistor (2N2222A). Later on a Sound Sensor was user to sense the sound. This sound sensor was compatible with arduino and also had a potentiometer in to to change the sensitivity.
 
 Sound Sensor
+
 ![Image](ssensor.png)
 
 2. **Light sensing** - The LDR takes the light input due to which the motors vibrate. In the initial prototypes, using a microbit to play 8-bit music was not very effective as it was hard to play various kinds of music. This problem was solved using an Arduino, and the speaker was removed. The sound was processed through sound sensor by Arduino and output as light by the Arduino.
@@ -220,16 +221,16 @@ I just had to code in the LED light pin and the pin of the sound sensor.
 Arguably, the fabrication of the wearable was the most difficult part of this project.
 I had to go through multiple materials to post get a comfortable wearable material. 
 
-1 Garden Gloves
+1. Garden Gloves
 ![Image](garglovept.png)
 
 Finding the garden gloves was one of high points of this project. They felt quite comfortbable and snug, but their rubber lining allowed very little movement throughout. It felt like my hand was immovable after 10 mins of using Sensit.
 
-2 Elastic Nylon bands for fingers 
+2. Elastic Nylon bands for fingers 
 ![Image](ftips.png)
 I used 2 simple elastic bands for finger tips and a large elastic band for the Arduino to attach to the wrist. I was quite uncomfortable and was not of the wearable type. 
 
-3 Socks
+3. Socks
 ![Image](socglove.png)
 
 I moved on to socks to see if this would, 
