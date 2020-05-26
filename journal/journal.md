@@ -221,16 +221,16 @@ I just had to code in the LED light pin and the pin of the sound sensor.
 Arguably, the fabrication of the wearable was the most difficult part of this project.
 I had to go through multiple materials to post get a comfortable wearable material. 
 
-1. Garden Gloves
+1 **Garden Gloves**
 ![Image](garglovept.png)
 
 Finding the garden gloves was one of high points of this project. They felt quite comfortbable and snug, but their rubber lining allowed very little movement throughout. It felt like my hand was immovable after 10 mins of using Sensit.
 
-2. Elastic Nylon bands for fingers 
+2 **Elastic Nylon bands for fingers**
 ![Image](ftips.png)
 I used 2 simple elastic bands for finger tips and a large elastic band for the Arduino to attach to the wrist. I was quite uncomfortable and was not of the wearable type. 
 
-3. Socks
+3 **Socks**
 ![Image](socglove.png)
 
 I moved on to socks to see if this would, 
@@ -239,7 +239,7 @@ b) If it can be worn on foot.
 
 While the woolen socks snug and easy to move, wearing it on the foot gave me slight anxeity that I might kick or break the device.
 
-4. Woollen Gloves
+4 **Woollen Gloves**
 ![Image](woglove.png)
 
 The woollen gloves seemed to be the perfect fit for the device as it was light, easy to move and hand minimal restrictions. It was $5 and was easy to remove too. 
