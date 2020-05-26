@@ -1,5 +1,5 @@
-# *Insert project title here*
-## *Insert your name here* ##
+# *Sensit*
+## *Harish Aravind Bakthavatchalam* ##
 ## 7515QCA Making Interaction 2020 Final Project ##
 
 <!--- Instructions for the journal will mostly be included as comments, which appear in a block like this that opens with a less than symbol, exclamation mark and three hyphens and closes with three hyphens and a greater than symbol. Make sure you do not include any text you want visible within these symbols or it will not be visible to your instructor. In some cases, such as in headings, there is italicised text included between asterisks that needs to be replaced. --->
@@ -11,17 +11,17 @@
 The image should be inserted with code like that below where you replace the filename to exactly match what you uploaded. This will only work reliably if your filename has no spaces or unusual characters in it. The image must be in .jpg, .gif, .png format. Files of .heic or .heif type will not show up.
 --->
 
-![Image](missingimage.png)
+![Image](pshot.png)
 
-<!--- PROJECT DESCRIPTION: In a few sentences, describe what the project is and does, who it is for, and a typical use case. This should be suitable for a catalog, poster, or other display material about the project. --->
-
+## PROJECT DESCRIPTION ##
+Sensit is a wearable device that takes the formfactor of a glove. It gives tactile feedback on your index fingertip and middle fingertip based on the music or sound it listens to.
 <!--- SECONDARY IMAGE: Provide some other image that gives a viewer a different perspective on the project such as more about how it functions, the project in use, or something else. This should not just be a different angle of the same object. It should show the project in use if the first image didn't show that, or somehow tell us a different story about the project. --->
 
-![Image](missingimage.png)
+![Image](happyuser2.png)
 
 <!--- PROJECT VIDEO: Provide a still image from your video and a link to the video below. In that code, replace `missingimage.png` with the still from your video and the URL of the video where indicated. If you link to a password protected video, you must include the password in the document you submit through Learning@Griffith. Failing to have a video that we can access might lead to significant reduction in marks, potentially as much as if the video has not been submitted at all. --->
 
-[![Image](missingimage.png)](https://your video address)
+[![Image](sensit.png)](https://youtu.be/E5ysmQOCGus)
 
 ### Journal ###
 
