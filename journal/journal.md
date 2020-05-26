@@ -29,16 +29,16 @@ This project is related to mine as it is a product that enables us to feel virtu
 
 *https://www.youtube.com/watch?v=9JnjOb4Qu0k*
 
-[![Image](brushbots.png)](https://www.youtube.com/watch?v=9JnjOb4Qu0k "Brushbots")
+[![Image](brushbot.png)](https://www.youtube.com/watch?v=9JnjOb4Qu0k "Brushbots")
 
 This project is related to mine because brushbots are the conceptual seed for this whole project. My a part of my project uses a circuit that is very similar to brushbots. My vibrating end of the circuit is derived from adding a Light Dependant Resistor to the circuit. The motor vibrates based on the intensity of the light it receives
 
 ### Related project 4 ###
-### *Brushbots* ###
+### *DIY LED Music Visualizer* ###
 
 *https://www.youtube.com/watch?v=lU1GVVU9gLU*
 
-[![Image](diyled.png)](https://www.youtube.com/watch?v=lU1GVVU9gLU "DIY LED Music Visualizer | Real-Time Animations (Arduino)")
+[![Image](diyled.png)](https://www.youtube.com/watch?v=lU1GVVU9gLU "DIY LED Music Visualizer")
 
 This project is related to mine because I feel that this project is an extrapolation of what the 'music' sensing part of my project would scale up to. While I use a single LED to display light in accordance to the music sensed with Sound sensor, the project uses an Arduino to read music directly and p;ay live animations. I also liked how he records everything as a documentation of his efforts.  
 
@@ -52,15 +52,20 @@ This project is related to mine because I feel that this project is an extrapola
 This project is related to mine because the Surrogates is an interesting display of touch based objects. Being someone who is very interested in tactile sensations, displays like these give me a better idea about selecting materials for projects, especially wearable. Seeing the 'Touch Lab' display at QCA, Southbank I was fascinated by how much touch can vary from material to material. This helped me in selecting better materials for my prototype. 
 
 ## Other research ##
-1. Arudino Tutorials - https://www.makerspaces.com/arduino-uno-tutorial-beginners/
+1. **Arudino Tutorials** - https://www.makerspaces.com/arduino-uno-tutorial-beginners/
+
 Before I set into this project I initially started out with MicroBit where I was fairly familiar with the hardware. Though MicroBit is a powerful microprocessor, I feel that it did not have the flexibility and scale of an Arduino. My learning curve with Arduino was made easier with Makerspaces' tutorial. Now I feel that I could do many more projects with with Arduino.
 
-2.  The Cognitive and Neural Correlates of Tactile Memory - https://psycnet.apa.org/record/2009-05290-005
+2.  **The Cognitive and Neural Correlates of Tactile Memory** - https://psycnet.apa.org/record/2009-05290-005
+
 **Reference**: Gallace, A. & Spence, C. (2009). The Cognitive and Neural Correlates of Tactile Memory. Psychological Bulletin, 135(3), 380–406. doi: 10.1037/a0015325.
+
 This paper gave me a better understanding of how tactile feedback is important. Tactile memory is very important touch-based cue in many cultures and relationships. The importance of haptic memory is often understated and underused in our technology. 
 
-3.  Social Touch Technology: A Survey of Haptic Technology for Social Touch 
+3.  **Social Touch Technology: A Survey of Haptic Technology for Social Touch** 
+
 **Reference**: G. Huisman, "Social Touch Technology: A Survey of Haptic Technology for Social Touch," in IEEE Transactions on Haptics, vol. 10, no. 3, pp. 391-408, 1 July-Sept. 2017, doi: 10.1109/TOH.2017.2650221.
+
 This paper talks about how virtual and physical touch are important for human communitcation. It talks about how current technology deals with virtual and physical touch for socializing.
 
 ## Conceptual development ##
@@ -84,7 +89,7 @@ The Haptrainer is a wearable bracelet that will help the user train for driving 
 ![Image](driving.png)
 
 ### Design concept tangent trial ###
-#### **WYHIWF - What you hear is What you feel** ####
+#### **WYHIWYF - What you hear is What you feel** ####
 
 The WHYIWF - prononced whiff - is a device that is aimed at people with hearing disablities and ASD to feel, manipulate and interact with music through tactile feedback. This device uses vibrations that play in accordance to highs and lows of the music being played. 
 The user can also manipulate the pitch and speed of the music using light and accelerometer sensors. This allows the user to feel the music in the way they prefer. The vibrations will change in accordance to the pitch and speed of music.
@@ -113,15 +118,19 @@ WYHIWF light manipulation
 ## **Sensit** ##
 
 **What is Sensit?**
+
 Sensit is a wearable device that takes the formfactor of a glove. It gives tactile feedback on your index fingertip and middle fingertip based on the music or sound it listens to.
 
 **How does the Sensit Work?**
+
 Sensit uses a microphone sound sensor to pick up vibrations and outputs that as light through LED. The LED is attached to a circuit that has an Light Dependant Resistor(LDR). The LDR picks up the varying intensity of light and then turns it into vibrations. The vibrations that are felt on the finger tip play in accordance to highs and lows of the music(or voice) being telecasted. 
 
 **Who are the target audience of Sensit**
+
 Sensit was designed as a intereactive experience that was intended to be in a Art show or a tech expo. It is just a fun experience that a user can have based on tactile feedback. Everyone is welcome to use Sensit
 
 **Other uses**
+
 Tangential usage of this wearable are,
 1. Haptic Memory learning
 2. Music bass testing
@@ -130,23 +139,21 @@ Tangential usage of this wearable are,
 5. Silent Metronome
 
 
-
-
 ### Interaction flowchart ###
 
-![Image](flowchart.png)
+![Image](flowchart1.png)
 
 ## Process documentation ##
 
 The Sensit consists of two main mechanisms,
-1. Sound sensing - To feel music, it is also vital that the device senses music. To enable this, a condensig microphone is is used to 'listen' to the music played convert that into light using NPN transistor (2N2222A). 
-2. Light sensing- This light varies in its luminosity based on the music beat. The LDR takes the light as input due to which the vibrating motors.
+1. **Sound sensing** - To feel music, it is also vital that the device senses music. To enable this, a condensing microphone is is used to 'listen' to the music played convert that into light using NPN transistor (2N2222A). 
 
-## Physical experimentation documentation ##
+2. **Light sensing** - This light varies in its luminosity based on the music beat. The LDR takes the light as input due to which the vibrating motors.
 
 The challenge with the physical construction of this device was in making the vibation motor vibrate in sync with the music. As of this stage the music is 8 bit music played through a piezo electric speaker. 
 
-Making the vibration motors work
+**Making the vibration motors work**
+
 The initial testing began with testing the vibration motors sensitivity using microbit. The vibration motors were sensitive enough to pick up the lowest points of Microbit's 8-bit music.
 
 ![Image](board.png)
@@ -187,20 +194,26 @@ Vibration Motor Color range test
 [![Image](colortest.png)](https://youtu.be/-vViloBOnX8 "Vibration Motor Color range test")
 
 ## Switching to an Arduino ##
-
 Starting from using an Microbit to just using an NPN transistor, I had to move on to an Arduino to allow better functionality of the project. 
 
-Moving on from the Mic I used a Microphone Sound Sensor to listen to the music. The sound sensor had a potentiometer that allowed us to change the sensitivity of the sensor.
+Switching to an Arduino made it easier to process and output light.
+1. **Sound sensing** - During initial prototypes a condensing microphone is is used to 'listen' to the music played that was converted into light using NPN transistor (2N2222A). Later on a Sound Sensor was user to sense the sound. This sound sensor was compatible with arduino and also had a potentiometer in to to change the sensitivity.
 
-![Image](soundsensor.png)
+![Image](ssensor.png)
 
-Using the microbit was fairly straight forward. and I was able to make the Arduino work with a few line of micropython code. 
+2. **Light sensing** - The LDR takes the light input due to which the motors vibrate. In the initial prototypes, using a microbit to play 8-bit music was not very effective as it was hard to play various kinds of music. This problem was solved using an Arduino, and the speaker was removed. The sound was processed through sound sensor by Arduino and output as light by the Arduino.
+
+![Image](basiccircuit.png)
+
+Using the microbit was fairly straight forward. and I was able to make the Arduino work with a few lines of micropython code. 
 I just had to code in the LED light pin and the pin of the sound sensor. 
 
 ## Fabrication ##
 
+**Material Hunt**
+
 Arguably, the fabrication of the wearable was the most difficult part of this project.
-I had to go through multiple materials to post get a comfortable wearable. 
+I had to go through multiple materials to post get a comfortable wearable material. 
 
 1 Garden Gloves
 ![Image](garglovept.png)
@@ -220,14 +233,38 @@ b) If it can be worn on foot.
 
 While the woolen socks snug and easy to move, wearing it on the foot gave me slight anxeity that I might kick or break the device.
 
-
 4. Woollen Gloves
 
 ![Image](woglove.png)
 
 The woollen gloves seemed to be the perfect fit for the device as it was light, easy to move and hand minimal restrictions. It was $5 and was easy to remove too. 
 
+**Building a Prototype**
+Making a robust, solid build was a mighty task. 
+I faced a number of problems including,
+1. Nothing sticks to wool(not even duct tape)
 
+2. The light circuit refused to work when I put it on the glove.
+
+3. The light sensing circuit was rigid and wouldn't bend along the fingers
+
+4. Vibration motors would break because the contacts are very thin
+
+5. The Arduino would not sit on top of the glove because of its form
+
+6. Sound sensor potentiometer would go over sensitive for no reason
+
+7. Removing the glove meant jeopardizing the entire project.
+
+While I had much more problems these were the consistent problems I face while makeing this project. I was fortuantely able to think through and solve it.
+
+While duct tape or doublesided tape was not of much use, a water based glue called Gorilla Glue and some superglue helped hold together two wool based surfaces. The light circuit's contacts were wildly touching eachother. Insulating them, helped solve the problem. Insulating the vibration motors helped strengthen it. Movement while using the glove caused the potentiometer to go wild. changing the potentiometer screw to a tighter one helped with the problem. I 3D printed a case for the sound sensor and Arduino to make it stick better on the woollen gloves. I was able to design the case for sound sensor, the arduino case was downloaded from Thingiverse ( https://www.thingiverse.com/thing:994827). After finally consolidating all the parts on to the glove I was able to arrive at a fairly robust wearable.
+
+![Image](3dmodel.png)
+
+![Image](sensorcase.png)
+
+![Image](caseprint.png)
 
 
 ## Final code ##
@@ -270,17 +307,19 @@ void loop()
 ## Design process discussion ##
 **Timeline**
 
-Week 1 - 6
+## Week 1 - 6 ##
+### Discover ###
 
 ![Image](pro1.png)
 
-From week 1 - 6 I was very set on creating a device with haptic feedback that would help people with vision disabilities to feel music. As a result of that, I started working on a project called What You Hear Is What You Feel(WYHIWYF). 
+In week 1 - 6 I was very set on creating a device with haptic feedback that would help people with vision disabilities to feel music. As a result of that, I started working on a project called What You Hear Is What You Feel(WYHIWYF). 
 The WYHIWYF - prononced whiff - is a device that is aimed at people with hearing disablities and ASD to feel, manipulate and interact with music through tactile feedback. This device uses vibrations that play in accordance to highs and lows of the music being played. 
 The user can also manipulate the pitch and speed of the music using light and accelerometer sensors. This allows the user to feel the music in the way they prefer. The vibrations will change in accordance to the pitch and speed of music.
 
 While this was a very ambitious project, my Lecturer helped me understand that I was trying to solve a problem that I dind't have, thus making it hard for me to find an answer. Having understood my flaw I restructured my thoughts.
 
-Week 7 - 9
+## Week 7 - 9 ##
+### Define, Develop, Repeat ###
 
 ![Image](garglovept.png)
 
@@ -291,18 +330,54 @@ Also during this time the scale of the project shrunk form multiple wearables to
 
 ![Image](glove.png)
 
-Week 11 - 12
+## Week 11 - 12 ##
+### Develop and Deliver ###
+
 The fabrication part of the Project was the most difficult of it all. From finding the right formfactor to make it a wearable to selecting materials that are wearable friendly was tasking. To put everything together and making it stay as the formfactor was even more difficult. 
 Having tried a variety of materials like rayon socks, to gardening gloves to nylon strips for fingers, wollen handgloves were the best. I was able to successfully complete the project.
 
-![Image](final work.png)
+![Image](finalwork.png)
+
+A flatlay of all the components used throughout the project
+![Image](flatlaycomp.png)
+
+
+## **User Testing** ##
+I had the oppurtunity to show and test this with 3 people. All of them had varied response to the wearable.
+**1. Angela Goh - Classmate**
+
+Angela visited me around week 11, then she tried the Garden Glove prototype. She was quite amused by it and she suggested that, "it would be interesting to use it to teach music, like rhythms and beats". She suggested that it can be used like a memory haptic metronome to learn music, rhythms and music. I would love to look at the directon as a future course of this project.
+
+**2. Santosh - Housemate**
+
+Santosh is my housemate. When he tried on the glove he initially expected it to be a glove that controls a robot of some sort. But when I let him experience it, he was intrigued about the vibrations. He felt that the vibrations could be more intense. But was not very convinced that this could be a art installation.
+
+![Image](user1.png)
+
+**3. Fernando - Housemate**
+
+Fernando is my another housemate. Fernando had the most interesting experience with Sensit. While he did not guess what the gloves did, he was plesantly surprised at what it did. I did not turn on music for him in hopes of finding a how he'd react. 
+He quickly figured out that the glove reacted to his voice and was excited by that. He also found that tht glove gave tactile feedback for Currawong songs and the 'thud' of walking on the floor. This was a very defining moment for me as I realised that affordances of any design has to be considered carefully before fabricating it. 
+
+![Image](happyuser2.png)
+
+Unrelated Currawong picture
+![Image](currawong.png)
 
 
 ## Reflection ##
 
-<!--- Describe the parts of your project you felt were most successful and the parts that could have done with improvement, whether in terms of outcome, process, or understanding.
+I felt that this project was an interesting test of my previously acquired skills. I expected to have difficulty in constructing the technology part of the project. But I had the utmost difficulty in fabricating the technical part into the a wearable form. I also understood the importance of choosing materials while working on wearables. I understood that the practicality of a wearable was very important than the level of technology implemented in it. 
 
 What techniques, approaches, skills, or information did you find useful from other sources (such as the related projects you identified earlier)?
+My skills with hobby electronics was challenged when I moved from microbit to Arduino board. I felt liberated after doing some simple projects with Arduino due to the simplicity of its use and implementation. I referred to websites like makerspaces, arduino createhub, reddit for clues, inspirations and advice. 
+
+The double diamond has proven to be very useful in my thought process though I am trying to identify other design methods. 
+One of my favourite design processes is the Design Squiggle. 
+"The journey of researching, uncovering insights, generating creative concepts, iteration of prototypes and eventually concluding in one single designed solution."
+
+![Image](ds.png)
+
 
 What parts of your project do you feel are novel. This is IMPORTANT to help justify a key component of the assessment rubric.
 
