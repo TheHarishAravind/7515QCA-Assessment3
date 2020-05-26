@@ -1,4 +1,4 @@
-# *Sensit*
+# *Sensit* #
 ## *Harish Aravind Bakthavatchalam* ##
 ## 7515QCA Making Interaction 2020 Final Project ##
 
